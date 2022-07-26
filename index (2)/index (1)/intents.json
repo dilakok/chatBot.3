@@ -1,0 +1,59 @@
+{"intents": [
+    {"tag": "greetings",
+     "patterns": ["Merhaba", "selam"],
+     "responses": ["Merhaba. Nasıl yardımcı olabilirim?"],
+     "context_set": ""
+    },
+    {"tag": "asking",
+     "patterns": ["asılsın","naber","nasil gidiyor","Nasilsin","naber","nasıl gıdıyor"],
+     "responses": ["Her şey yolunda. Nasıl yardımcı olabilirim?"],
+     "context_set": ""
+    },
+    {"tag": "goodbye",
+     "patterns": ["görüşürüz", "kendine iyi bak", "Iyi günler","gorusuruz", "kendıne ıyı bak", "İyı gunler"],
+     "responses": ["Kendine iyi bak", "Sonra görüşürüz", "İyi günler"],
+     "context_set": ""
+    },
+    {"tag": "yas",
+     "patterns": ["kac yasindasin", "yasin kac", "yas?","kaç yaşındasın", "yaşın kaç", "yaş?"],
+     "responses": ["Yeni doğdum", "Bilmiyorum ama çok gencim"],
+     "context_set": ""
+    },
+    {"tag": "isim",
+     "patterns": ["adin ne", "ismin ne", "tanisalim mi?","adın ne","tanışalım mı?"],
+     "responses": ["İsmim  QBot.", "Ben QBot"],
+     "context_set": ""
+    },
+    {"tag": "sinavdan cikis",
+     "patterns": ["hesabimdan nasil cikis yaparim", "hesabimdan cikamiyorum","hesabımdan nasıl çıkış yaparım", "hesabımdan çıkamıyorum"],
+     "responses": ["Kullanıcı fotoğrafı üzerine tıkla ve oturumu kapat."],
+     "context_set": ""
+    },   
+    {"tag": "sinav baslat",
+        "patterns": ["sınava nasıl başlarım","sinava giriş", "sınava girmek istiyorum","sinava nasil baslarim", "sinava girmek istiyorum","sınava giremiyorum"],
+        "responses": ["Menüden sınavlarım bölümüne tıklayınız."],
+        "context_set": ""
+    }, 
+    {"tag": "sinav ekrani",
+       "patterns": ["sinav ekranimi goremiyorum","sınav ekranımı göremiyorum"],
+        "responses": ["sayfayı yenile ve tekrar dene"],
+        "context_set": ""
+    },
+    {"tag": "sinav sonuclarini gorme",
+       "patterns": ["sonucumu nasil goruntulerim","sınav sonucumu görmek istiyorum","sonucumu nasıl görüntülerim","sınav sonucumu görmek istiyorum"],
+       "responses": ["Menüden sınav soruları bölümüne tıklayınız."],
+       "context_set": ""
+    },
+    {"tag": "duyurular",   
+      "patterns": ["duyurular"],
+      "responses": ["Sol taraftaki menuden görüntüleyebilirsin."],
+      "context_set": ""
+    },
+    {"tag": "thanks",   
+        "patterns": ["tesekkurler", "sagol","teşekkürler", "sağol"],
+        "responses": ["Rica ederim, görüşmek üzere."],
+        "context_set": ""
+    }
+
+]
+}
