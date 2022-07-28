@@ -1,16 +1,16 @@
 {"intents": [
     {"tag": "greetings",
      "patterns": ["Merhaba", "selam"],
-     "responses": ["Merhaba. Nasıl yardımcı olabilirim?"],
+     "responses": ["Merhaba. Nasıl yardımcı olabilirim?","Selam nasıl yardımcı olabilirim?"],
      "context_set": ""
     },
     {"tag": "asking",
-     "patterns": ["asılsın","naber","nasil gidiyor","Nasilsin","naber","nasıl gıdıyor"],
+     "patterns": ["nasılsın","naber","nasil gidiyor","nasilsin","naber","nasıl gidiyor"],
      "responses": ["Her şey yolunda. Nasıl yardımcı olabilirim?"],
      "context_set": ""
     },
     {"tag": "goodbye",
-     "patterns": ["görüşürüz", "kendine iyi bak", "Iyi günler","gorusuruz", "kendıne ıyı bak", "İyı gunler"],
+     "patterns": ["görüşürüz", "kendine iyi bak", "Iyi günler","gorusuruz", "kendıne ıyı bak", "İyi gunler"],
      "responses": ["Kendine iyi bak", "Sonra görüşürüz", "İyi günler"],
      "context_set": ""
     },
@@ -21,39 +21,73 @@
     },
     {"tag": "isim",
      "patterns": ["adin ne", "ismin ne", "tanisalim mi?","adın ne","tanışalım mı?"],
-     "responses": ["İsmim  QBot.", "Ben QBot"],
+     "responses": ["İsmim  QBot, sorunlarını çözmek için buradayım.", "Ben yapay zeka destekli QBot, sorunlarını çözmek için buradayım"],
      "context_set": ""
     },
     {"tag": "sinavdan cikis",
-     "patterns": ["hesabimdan nasil cikis yaparim", "hesabimdan cikamiyorum","hesabımdan nasıl çıkış yaparım", "hesabımdan çıkamıyorum"],
+     "patterns": ["hesabimdan nasil cikis yaparim","çık","cik","hesabimdan cikamiyorum","hesabımdan nasıl çıkış yaparım", "hesabımdan çıkamıyorum","hesaptan çık","hesaptan cık"],
      "responses": ["Kullanıcı fotoğrafı üzerine tıkla ve oturumu kapat."],
      "context_set": ""
     },   
     {"tag": "sinav baslat",
-        "patterns": ["sınava nasıl başlarım","sinava giriş", "sınava girmek istiyorum","sinava nasil baslarim", "sinava girmek istiyorum","sınava giremiyorum"],
+        "patterns": ["sınava nasıl başlarım", "sınava girmek istiyorum","sinava nasil baslarim", "sinava girmek istiyorum","sınava giremiyorum","sınava başla"],
         "responses": ["Menüden sınavlarım bölümüne tıklayınız."],
         "context_set": ""
     }, 
     {"tag": "sinav ekrani",
        "patterns": ["sinav ekranimi goremiyorum","sınav ekranımı göremiyorum"],
-        "responses": ["sayfayı yenile ve tekrar dene"],
+        "responses": ["Sayfayı yenile ve tekrar dene"],
         "context_set": ""
     },
     {"tag": "sinav sonuclarini gorme",
-       "patterns": ["sonucumu nasil goruntulerim","sınav sonucumu görmek istiyorum","sonucumu nasıl görüntülerim","sınav sonucumu görmek istiyorum"],
+       "patterns": ["sonucumu nasil goruntulerim","sınav sonucumu görmek istiyorum","sonucumu nasıl görüntülerim","sınav sonucumu görmek istiyorum","sınav sonucu","sinav sonucu","sonuç","sonuc"],
        "responses": ["Menüden sınav soruları bölümüne tıklayınız."],
        "context_set": ""
     },
     {"tag": "duyurular",   
       "patterns": ["duyurular"],
-      "responses": ["Sol taraftaki menuden görüntüleyebilirsin."],
+      "responses": ["Duyuruları sol taraftaki menüden görüntüleyebilirsin."],
       "context_set": ""
     },
     {"tag": "thanks",   
         "patterns": ["tesekkurler", "sagol","teşekkürler", "sağol"],
         "responses": ["Rica ederim, görüşmek üzere."],
         "context_set": ""
+    },
+    {"tag": "sınav saati",   
+        "patterns": ["sınav saati geldi mi", "sınav ne zaman","", "sınav saati"],
+        "responses": ["Sınav saatini sınavlarım bölümünden görüntüleyebilirsin."],
+        "context_set": ""
+    },
+    {"tag": "cinsiyet",   
+        "patterns": ["kız mısın", "erkek misin","cinsiyetin ne"],
+        "responses": ["Önemli olduğunu sanmıyorum, sınavla ilgili sorularını çözmek için buradayım."],
+        "context_set": ""
+    },
+    {"tag": "cinsiyet",   
+        "patterns": ["kız mısın", "erkek misin","cinsiyetin ne"],
+        "responses": ["Önemli olduğunu sanmıyorum, sınavla ilgili sorularını çözmek için buradayım."],
+        "context_set": ""
+    },
+    {"tag": "yaratıcı",   
+        "patterns": ["yaratıcın kim", "","sahibin kim","seni kim yarattı","seni kim yaptı"],
+        "responses": ["Qulak şirketine aitim, sınavla ilgili sorularını çözmek için buradayım."],
+        "context_set": ""
+    },
+    {"tag": "hava durumu",   
+        "patterns": ["hava nasıl", "hava sıcak mı","hava soğuk mu","hava durumu"],
+        "responses": ["Sizin oraya bilemiyorum ama benim burası sunuculardan dolayı gayet sıcak"],
+        "context_set": ""
+    },
+    {"tag": "ekonomi",   
+        "patterns": ["ekonomi", "para","borsa","dolar","euro"],
+        "responses": ["Bir sınav yazılımına borsa hakkında soru sormak ilginç."],
+        "context_set": ""
     }
+   
+
+    
+    
 
 ]
 }
