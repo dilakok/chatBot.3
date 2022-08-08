@@ -1,0 +1,131 @@
+{"intents": [
+    {"tag": "selamlaþma",
+     "patterns": ["Merhaba", "selam","slm","nbr"],
+     "responses": ["Merhaba. Nasýl yardýmcý olabilirim?","Selam nasýl yardýmcý olabilirim?"],
+     "context_set": ""
+    },
+    {"tag": "soru",
+     "patterns": ["nasýlsýn","naber","nasil gidiyor","nasilsin","nasýl gidiyor"],
+     "responses": ["Her þey yolunda. Nasýl yardýmcý olabilirim?"],
+     "context_set": ""
+    },
+    {"tag": "kapanýþ",
+     "patterns": ["görüþürüz", "kendine iyi bak", "Iyi günler","gorusuruz", "kendýne ýyý bak", "Ýyi gunler"],
+     "responses": ["Kendine iyi bak", "Sonra görüþürüz", "Ýyi günler"],
+     "context_set": ""
+    },
+    {"tag": "yas",
+     "patterns": ["kac yasindasin", "yasin kac", "yas?","kaç yaþýndasýn", "yaþýn kaç", "yaþ?"],
+     "responses": ["Yeni doðdum", "Bilmiyorum ama çok gencim"],
+     "context_set": ""
+    },
+    {"tag": "isim",
+     "patterns": ["adin ne","kimsin", "ismin ne", "tanisalim mi?","adýn ne","tanýþalým mý?"],
+     "responses": ["Ýsmim  QBot, sorunlarýný çözmek için buradayým.", "Ben yapay zeka destekli QBot, sorunlarýný çözmek için buradayým"],
+     "context_set": ""
+    },
+    {"tag": "sinavdan cikis",
+     "patterns": ["hesabimdan nasil cikis yaparim","çýk","cik","hesabimdan cikamiyorum","hesabýmdan nasýl çýkýþ yaparým", "hesabýmdan çýkamýyorum","hesaptan çýk","hesaptan cýk"],
+     "responses": ["Kullanýcý fotoðrafý üzerine týkla ve oturumu kapat."],
+     "context_set": ""
+    },   
+    {"tag": "sinav baslat",
+        "patterns": ["sýnava nasýl baþlarým","sýnav saati geldi mi","en yakýn sýnavým ne zaman","bugün sýnav var mý","sýnav ne zaman","sýnava giriþ","sýnava giriþ","sinava giris","sýnava girmek istiyorum","sinava nasil baslarim", "sinava girmek istiyorum","sýnava giremiyorum","sýnava baþla"],
+        "responses": ["Menüden sýnavlarým bölümüne týklayarak ayrýntýlarý görüntüleyebilir, sýnava giriþ yapabilirsin. Sorun olduðunu düþünüyorsan öðretmenin ile iletiþim kurmaný tavsiye ederim."],
+        "context_set": ""
+    }, 
+    {"tag": "sinav ekrani",
+       "patterns": ["sinav ekranimi goremiyorum","sýnav ekranýmý göremiyorum"],
+        "responses": ["Sayfayý yenile ve tekrar dene"],
+        "context_set": ""
+    },
+    {"tag": "sinav sonuclarini gorme",
+       "patterns": ["sonucumu nasil goruntulerim","sýnav sonucumu görmek istiyorum","sonucumu nasýl görüntülerim","sýnav sonucumu görmek istiyorum","sýnav sonucu","sinav sonucu","sonuç","sonuc"],
+       "responses": ["Menüden sýnav sorularý bölümüne týklayýnýz."],
+       "context_set": ""
+    },
+    {"tag": "duyurular",   
+      "patterns": ["duyurular"],
+      "responses": ["Duyurularý sol taraftaki menüden görüntüleyebilirsin."],
+      "context_set": ""
+    },
+    {"tag": "thanks",   
+        "patterns": ["tesekkurler", "sagol","teþekkürler", "saðol"],
+        "responses": ["Rica ederim, görüþmek üzere."],
+        "context_set": ""
+    },
+    {"tag": "sýnav saati",   
+        "patterns": ["sýnav saati geldi mi", "sýnav ne zaman", "sýnav saati"],
+        "responses": ["Sýnav saatini sýnavlarým bölümünden görüntüleyebilirsin."],
+        "context_set": ""
+    },
+    {"tag": "cinsiyet",   
+        "patterns": ["kýz mýsýn", "erkek misin","cinsiyetin ne"],
+        "responses": ["Önemli olduðunu sanmýyorum, sýnavla ilgili sorularýný çözmek için buradayým."],
+        "context_set": ""
+    },
+    
+    {"tag": "yaratýcý",   
+        "patterns": ["yaratýcýn kim","sahibin kim","seni kim yarattý","seni kim yaptý"],
+        "responses": ["Qulak þirketine aitim, sýnavla ilgili sorularýný çözmek için buradayým."],
+        "context_set": ""
+    },
+    {"tag": "hava durumu",   
+        "patterns": ["hava nasýl", "hava sýcak mý","hava soðuk mu","hava durumu"],
+        "responses": ["Sizin oraya bilemiyorum ama benim burasý sunuculardan dolayý gayet sýcak."],
+        "context_set": ""
+    },
+    {"tag": "ekonomi",   
+        "patterns": ["ekonomi", "para","borsa","dolar","euro","türk lirasý","tl"],
+        "responses": ["Bir sýnav yazýlýmýna borsa hakkýnda soru sormak ilginç."],
+        "context_set": ""
+    },
+    {"tag": "puan",   
+        "patterns": ["puanlar ne zaman açýklanacak", "puanýmý nerden görürüm","kaç puan aldým","puanýmý ne zaman görebilirim"],
+        "responses": ["Öðretmeniniz izin verdiði takdirde puanlarý sonuçlarým bölümünden görüntüleyebilirsin."],
+        "context_set": ""
+    },
+    {"tag": "hesaba giriþ",   
+        "patterns": ["hesabýma giriþ yapamýyorum", "hesaba giriþ yapamýyorum","giriþ yapamýyorum","þifremi unuttum","þifrem yok"],
+        "responses": ["Mail adresini ve þifreni doðru yazdýðýndan emin ol, sorun yaþýyorsan þifremi unuttum seçeneðini deneyebilirsin."],
+        "context_set": ""
+    },
+    {"tag": "destek",   
+        "patterns": ["destek gerekli", "yardým edin","yardým","destek","problem yaþýyorum"],
+        "responses": ["Problemini en sade þekilde ifade edersen yardým etmeye çalýþacaðým.","Sana yardým etmek için buradayým."],
+        "context_set": ""
+    },
+    {"tag": "donaným",   
+        "patterns": ["mikrofonumu açamýyorum", "mikrofonum çalýþmýyor","kameram çalýþmýyor","kameramý açamýyorum","kameram açýlmýyor","mikrofonum açýlmýyor","donaným problemi yaþýyorum"],
+        "responses": ["Gerekli izinleri verdiðinden emin ol ve tekrar dene."],
+        "context_set": ""
+    },
+    {"tag": "beyaz ekran",   
+        "patterns": ["beyaz ekran geldi", "beyaz ekran","ekran beyaz oldu","beyaz ekranda kalýyorum","ekrana bir þey gelmedi","ekraný göremiyorum"],
+        "responses": ["Programý kapatýp tekrar açýn, problem devam ederse bilgisyarýnýzdan programý kaldýrýn. Hala bir problem olduðunu düþünüyorsanýz bize yazýn mail : ....."],
+        "context_set": ""
+    },
+    {"tag": "kurulum",   
+        "patterns": ["programý açamýyorum"],
+        "responses": ["Bilgisayarýnda uygulama ile alakalý tüm dosyalarý silindiðinden emin ol, ... adresinden tekrar indirin"],
+        "context_set": ""
+    },
+    {"tag": "telafi",   
+        "patterns": ["sýnavý kaçýrdým", "telafi","telafi sýnav olacak mý","telafi ne zaman","telafi sýnavý yapýlacak mý"],
+        "responses": ["Ayrýntýlý bilgi için öðretmeninizle iletiþime geçebilirsiniz."],
+        "context_set": ""
+    },
+    {"tag": "aktivasyon",   
+        "patterns": ["aktivasyonu geçemiyorum"],
+        "responses": ["Hangi adýmda problem yaþýyorsun (kvkk onaylamak, kimlik fotoðrafý, profil fotoðrafý...)"],
+        "context_set": ""
+    },
+    {"tag": "yükleme",   
+        "patterns": ["exeyi nereden yükleyebilirim","uygulamayý nasýl indiririm","programý nasýl yüklerim"],
+        "responses": ["Mailinizi kontrol ediniz, verilen adresten programý indirebilirsiniz.Maili göremiyorsanýz spam kutusunu kontrol ediniz. Çözüm bulamazsanýz bize yazýn ..."],
+        "context_set": ""
+    }
+
+
+]
+}
